@@ -1,0 +1,16 @@
+<html> 
+    <head>
+        <script src="chat.js"></script>
+    </head> 
+
+    <body>
+        
+        <div id="list" style="height: 300px;overflow-y: scroll;border: 1px solid #CCC;">
+        </div>
+        <div>
+            Costello: 
+            <input type="text" id="msg" size="60" onkeydown='if(event.keyCode==13){btn.click()}'/>
+            <button id= "btn" onclick="send()">send</button>
+        </div>
+    </body>    
+</html>
